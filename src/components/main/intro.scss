@@ -1,4 +1,30 @@
-// .intro{
-//     background-color: cyan;
-    
-// }
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .left{
+        background-color: crimson;
+        height: 500px;
+        width: 400px;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        // background-color: chartreuse;
+        img{
+            height: 400px;
+            margin-left: 30px;
+        }
+
+    }
+    .right{
+        margin-right: 40px;
+        display: flex;
+        padding-right: 30px;
+        justify-content: center;
+        align-items: center;
+       #job{
+           font-size: 35px;
+           color: crimson;
+       }
+    }
+}

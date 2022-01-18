@@ -1,8 +1,8 @@
 .navbar{
-    background-color: crimson;
+    
     height: 70px;
     width: 100%;
-    position: fixed;
+    position: relative;
     top: 0;
     display: flex;
      align-items: center;
@@ -14,19 +14,29 @@
          padding-left: 10px;
      }
      .right{
-         margin-right: 10px;
+         margin-right: 20px;
          .hamburger{
              width: 32px;
              height: 25px;
              display: flex;
              flex-direction: column;
              justify-content: space-between;
+             cursor: pointer;
              span{
-                 width: 100%;
+                 width: 50%;
                  height: 3px;
                  background-color: lime;
                  
+
+                
+                 
              }
+             .line1{
+                 margin-left: 10px;
+             }
+             .line2{
+                margin-left: 5px;
+            }
          }
      }
      
