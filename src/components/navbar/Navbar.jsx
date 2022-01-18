@@ -5,9 +5,10 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className="left">
-                  nasreddine jaouadi
+                  <img src="/assets/logo.png" alt="logo"/>
             </div>
             <div className="right">
+                Menu
                 <div className="hamburger">
                     <span className='line1'></span>
                     <span className='line2'></span>

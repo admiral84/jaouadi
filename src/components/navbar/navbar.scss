@@ -11,10 +11,16 @@
      .left{
          font-size: 2em;
          font-weight: 800;
-         padding-left: 10px;
+         padding-left: 20px 10px;
+         img{
+             margin-top: 20px;
+             height: 150px;
+             width: 150px;
+         }
      }
      .right{
          margin-right: 20px;
+         display: flex;
          .hamburger{
              width: 32px;
              height: 25px;
@@ -22,6 +28,7 @@
              flex-direction: column;
              justify-content: space-between;
              cursor: pointer;
+             margin-left: 10px;
              span{
                  width: 50%;
                  height: 3px;
